@@ -31,3 +31,36 @@ body{
     margin: 10px;
     border: solid black;
 }
+
+#game-options{
+    display: none;
+    /* display: flex; */
+    border: solid black;
+    justify-content: space-around;
+}
+
+.opt-btn{
+    /* margin: auto; */
+}
+
+#game-board{
+    width: 90%;
+    height: 1000px;
+    display: none;
+    margin: auto;
+    margin-top: 50px;
+    border: solid black;
+    justify-content: center;
+}
+
+#board-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#game-btn{
+    
+}
