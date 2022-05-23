@@ -5,20 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Land</title>
     <link rel = "stylesheet" href="index.css">
+    <script src = "app.js"></script>
 </head>
 <body>
     <div id = "authentication-box">
         <button class="btn_auth">Log In</button>
         <button class="btn_auth">Sign up</button>
     </div>
+    <div id = "game-options">
+        <button class = "opt-btn">Instructions</button>
+        <button class = "opt-btn">Leaderboard</button>
+        <button class = "opt-btn">Back</button>
+    </div>
     <div id="flex-container">
-        <div class="game-tile">Tile 1</div>
-        <div class="game-tile">Tile 2</div>
-        <div class="game-tile">Tile 3</div>
-        <div class="game-tile">Tile 4</div>
-        <div class="game-tile">Tile 5</div>
-        <div class="game-tile">Tile 6</div>
-        <div class="game-tile">Tile 7</div>
+        <div class="game-tile" onclick="gameTemplate(1)">Tile 1</div>
+        <div class="game-tile" onclick="gameTemplate(2)">Tile 2</div>
+        <div class="game-tile" onclick="gameTemplate(3)">Tile 3</div>
+        <div class="game-tile" onclick="gameTemplate(4)">Tile 4</div>
+        <div class="game-tile" onclick="gameTemplate(5)">Tile 5</div>
+        <div class="game-tile" onclick="gameTemplate(6)">Tile 6</div>
+        <div class="game-tile" onclick="gameTemplate(7)">Tile 7</div>
+    </div>
+    <div id = "game-board">
+        <div id = "board-center">
+            <button id = "start-btn">start</button>
+        </div>
     </div>
 </body>
 </html>
