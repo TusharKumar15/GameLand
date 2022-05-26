@@ -1,3 +1,5 @@
+/* main page css */
+
 body{
     background-color: gray;
 }
@@ -32,6 +34,8 @@ body{
     border: solid black;
 }
 
+/* page 2 */
+
 #game-options{
     display: none;
     /* display: flex; */
@@ -62,5 +66,28 @@ body{
 }
 
 #game-btn{
+    
+}
+
+/* tic-tac game css */
+
+#tictac-board{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    border: solid black;
+    /* margin-top: 40%; */
+    width: 40vw;
+    height: 40vw;
+}
+
+.tt-box{
+    display: flex;
+    width: 30%;
+    border: solid black;
+    /* margin: auto; */
+    justify-content: center;
+    padding-top: 10%;
+    font-weight: bold;
     
 }
